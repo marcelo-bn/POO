@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d30ea653-7550-424d-9587-64f1f32e15d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/POO/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/POO/Robo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/POO/Tempo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Switch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Switch/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/POO/Robo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/POO/Robo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -26,40 +23,41 @@
     <session id="1202146843">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="5" />
+          <entry key="project.closed" value="14" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.23" value="2" />
+          <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
+          <entry key="java" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3666" />
+          <entry key="java" value="3910" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3666" />
+          <entry key="JAVA" value="3910" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/POO/Principal.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -71,12 +69,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/POO/Robo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
-              <folding>
-                <element signature="e#1587#1588#0" expanded="true" />
-                <element signature="e#1636#1637#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1125">
+              <caret line="75" column="38" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/POO/Tempo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="34" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -392,8 +395,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/POO/Tempo.java" />
         <option value="$PROJECT_DIR$/src/main/java/POO/Robô.java" />
-        <option value="$PROJECT_DIR$/src/main/java/POO/Robo.java" />
         <option value="$PROJECT_DIR$/src/main/java/POO/Principal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/POO/Robo.java" />
       </list>
     </option>
   </component>
@@ -415,6 +418,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -453,7 +457,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -519,17 +522,20 @@
       <workItem from="1535134696456" duration="2812000" />
       <workItem from="1535137517010" duration="10000" />
       <workItem from="1535138929754" duration="513000" />
+      <workItem from="1535148988733" duration="41000" />
+      <workItem from="1535149740202" duration="105000" />
+      <workItem from="1535149849508" duration="16000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12256000" />
+    <option name="totallyTimeSpent" value="12418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29438543" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31031868" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -569,28 +575,24 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/POO/Robô.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/POO/Tempo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/POO/Principal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="180">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/POO/Robo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
-          <folding>
-            <element signature="e#1587#1588#0" expanded="true" />
-            <element signature="e#1636#1637#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1125">
+          <caret line="75" column="38" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/POO/Principal.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/POO/Tempo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        <state relative-caret-position="126">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="34" selection-end-column="5" />
         </state>
       </provider>
     </entry>

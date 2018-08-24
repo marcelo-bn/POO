@@ -8,15 +8,17 @@ public class Robo {
     private char frente;
     private char[] plano = null;
 
-
+    //Construtor com 1 parâmetro
     public Robo(int a){
         area = a; x = 0; y = 0; frente = 'N';
     }
 
+    //Construtor com todos os parâmetros
     public Robo(int a, int cx, int cy, char f, String dadosPlano){
         area = a; x = cx; y = cy; frente = f; plano = dadosPlano.toCharArray();
     }
 
+    //Verifica e executa os comandos fornecidos
     public void verificaComandos(){
 
         for(int i = 0; i < plano.length; i++){
@@ -31,6 +33,7 @@ public class Robo {
 
     }
 
+    //Faz a movimentação do objeto no plano
     public void move(){
         if(frente == 'N') {
             if(y < area) y++;
@@ -54,6 +57,7 @@ public class Robo {
         }
     }
 
+    //Rotaciona o objeto no seu próprio eixo
     public void rotaciona(char sentido){
         if(sentido == 'E'){
             if(frente == 'N') frente = 'O';
@@ -69,6 +73,7 @@ public class Robo {
         }
     }
 
+    //Retorna as informações do objeto
     public String toString() {
         return x + " " + y + " " + frente;
     }
