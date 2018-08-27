@@ -8,14 +8,19 @@ public class Robo {
     private char frente;
     private char[] plano = null;
 
-    //Construtor com 1 parâmetro
-    public Robo(int a){
-        area = a; x = 0; y = 0; frente = 'N';
+    //Construtor que não recebe parâmetro
+    public Robo(){
+        area = 10; x = 0; y = 0; frente = 'N';
     }
 
     //Construtor com todos os parâmetros
-    public Robo(int a, int cx, int cy, char f, String dadosPlano){
-        area = a; x = cx; y = cy; frente = f; plano = dadosPlano.toCharArray();
+    public Robo(int a, int cx, int cy, char f){
+        area = a; x = cx; y = cy; frente = f;
+    }
+
+    //Armazena os comandos
+    public void comandos(String dadosPlano){
+        plano = dadosPlano.toCharArray();
     }
 
     //Verifica e executa os comandos fornecidos
@@ -77,10 +82,4 @@ public class Robo {
     public String toString() {
         return x + " " + y + " " + frente;
     }
-
-
-
-
-
-
 }
