@@ -15,7 +15,7 @@ public class Aviao {
         this.peso = p;
         this.qtMotor = qtMotores;
         /**
-         * Instaciando os objetos Motor
+         * Instanciando os objetos Motor
          */
         motores = new Motor[qtMotor];
         for (int i = 0; i < qtMotor; i++) {
