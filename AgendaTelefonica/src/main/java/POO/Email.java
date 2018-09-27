@@ -30,32 +30,15 @@ public class Email {
     }
 
     public boolean update(String r, String e){
-
-        dados.put(r,e);
-        return true;
+        if(dados.containsKey(r)){
+            return false;
+        }
+        else{
+            dados.put(r,e);
+            return true;
+        }
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     public String Listar(String c){
 
@@ -63,9 +46,6 @@ public class Email {
         return aux;
 
     }
-
-
-
 
 
 }

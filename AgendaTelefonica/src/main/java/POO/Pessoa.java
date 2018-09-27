@@ -1,5 +1,7 @@
 package POO;
 
+import java.text.ParseException;
+
 public class Pessoa {
 
     private String nome;
@@ -16,7 +18,7 @@ public class Pessoa {
 
     }
 
-    public boolean addTelefone(String r, String n){
+    public boolean addTelefone(String r, String n) throws ParseException {
         this.telefones.add(r,n);
         return true;
     }
@@ -36,37 +38,17 @@ public class Pessoa {
         return true;
     }
 
-    public boolean updateTel(String r){
-
-
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     public boolean updateTelefone(String r, String n){
+        this.telefones.remover(r);
+        this.telefones.update(r,n);
         return true;
     }
 
     public boolean updateEmail(String r, String e){
+        this.emails.remover(r);
+        this.emails.update(r,e);
         return true;
+
     }
 
     public String listaCel(String chave){
@@ -85,8 +67,6 @@ public class Pessoa {
         return emails.Listar(chave);
     }
 
-
-
     public String getNome() {
         return nome;
     }
@@ -94,4 +74,7 @@ public class Pessoa {
     public String getSobrenome() {
         return sobrenome;
     }
+
+
+
 }

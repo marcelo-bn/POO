@@ -1,20 +1,30 @@
 package POO;
 
+import javax.swing.text.MaskFormatter;
+import java.text.ParseException;
 import java.util.HashMap;
 
 public class Telefone {
 
     private HashMap<String,String> dados = new HashMap<>();
 
-    public boolean add(String r, String n){
+    public void add(String r, String n) throws ParseException {
         if(dados.containsKey(r)){
-            return false;
+            //return false;
         }
         else{
-            dados.put(r,n);
-            return true;
-        }
+            if (r.equals("celular")) {
+                verificaCelular(n);
+                String aux = mascaraCel(n);
+                dados.put(r,aux);
+            }
+            if(r.equals("residencial")) {
+                verificaResidencial(n);
+                String aux = mascaraRes(n);
+                dados.put(r, aux);
+            }
 
+        }
     }
 
     public boolean remover(String r){
@@ -37,26 +47,6 @@ public class Telefone {
         }
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     public boolean verificaCelular(String n){
 
@@ -92,23 +82,40 @@ public class Telefone {
 
     }
 
-    public String Listar(String c){
+    public String mascaraCel(String n) throws ParseException {
+        String telefone = n;
+        if(telefone.length()==11){
+            MaskFormatter mask = new MaskFormatter("(##) #####-####");
+            mask.setValueContainsLiteralCharacters(false);
+            mask.setPlaceholderCharacter('_');
+            String aux = mask.valueToString(telefone);
+            return aux;
+        }
+        else{
+            return "Celular incorreto";
+        }
 
+    }
+
+    public String mascaraRes(String n) throws ParseException {
+        String telefone = n;
+        if(telefone.length()==10) {
+            MaskFormatter mask = new MaskFormatter("(##) ####-####");
+            mask.setValueContainsLiteralCharacters(false);
+            mask.setPlaceholderCharacter('_');
+            String aux = mask.valueToString(telefone);
+            return aux;
+        }
+        else{
+            return "Telefone incorreto";
+        }
+
+    }
+
+    public String Listar(String c){
         String aux = dados.get(c);
         return aux;
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
 
 }

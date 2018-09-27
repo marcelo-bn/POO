@@ -1,5 +1,6 @@
 package POO;
 
+import java.text.ParseException;
 import java.util.ArrayList;
 
 public class Agenda {
@@ -10,7 +11,7 @@ public class Agenda {
         contatos.add(p);
     }
 
-    public boolean addTelefone(String r, String n, int pIndex){
+    public boolean addTelefone(String r, String n, int pIndex) throws ParseException {
         Pessoa aux = contatos.get(pIndex);
         aux.addTelefone(r,n);
         return true;
@@ -35,39 +36,17 @@ public class Agenda {
 
     }
 
+    public boolean updatelefone(String r, String n, int index){
+        Pessoa aux = contatos.get(index);
+        aux.updateTelefone(r,n);
+        return true;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    public boolean updateEmail(String r, String e, int index){
+        Pessoa aux = contatos.get(index);
+        aux.updateEmail(r,e);
+        return true;
+    }
 
 
     public String listaContatos(int index){
