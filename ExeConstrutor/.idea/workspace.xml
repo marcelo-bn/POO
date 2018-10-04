@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d30ea653-7550-424d-9587-64f1f32e15d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../AgendaTelefonica/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AgendaTelefonica/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AgendaTelefonica/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AgendaTelefonica/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AgendaTelefonica/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AgendaTelefonica/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AgendaTelefonica/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AgendaTelefonica/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AgendaTelefonica/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AgendaTelefonica/src/main/java/POO/Agenda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AgendaTelefonica/src/main/java/POO/Email.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AgendaTelefonica/src/main/java/POO/Pessoa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AgendaTelefonica/src/main/java/POO/Principal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AgendaTelefonica/src/main/java/POO/Telefone.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AgendaTelefonica/src/test/java/POO/TelefoneTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Soldado/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Soldado/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SoldadoTeste/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SoldadoTeste/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Switch/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aviao/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aviao/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d30ea653-7550-424d-9587-64f1f32e15d8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,17 +20,18 @@
     <session id="1202146843">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="26" />
+          <entry key="project.closed" value="27" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="12" />
           <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.23" value="3" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="27" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -89,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/POO/Robo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-75">
+            <state relative-caret-position="180">
               <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
             </state>
           </provider>
@@ -98,7 +79,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/POO/Tempo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="873">
+            <state relative-caret-position="517">
               <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
             </state>
           </provider>
@@ -444,6 +425,7 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -481,7 +463,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -573,17 +554,17 @@
       <workItem from="1535926834493" duration="31000" />
       <workItem from="1536175192701" duration="2000" />
       <workItem from="1537390456318" duration="25000" />
+      <workItem from="1538076787476" duration="6000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15083000" />
+    <option name="totallyTimeSpent" value="15089000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3861912" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39301974" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -634,14 +615,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/POO/Robo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
+        <state relative-caret-position="180">
           <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/POO/Tempo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="873">
+        <state relative-caret-position="517">
           <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
         </state>
       </provider>
