@@ -5,6 +5,7 @@ public class Ferrari extends Veiculo implements Conversivel {
 
     private boolean capotaAberta;
     private boolean farolNeblina;
+    private final int VELMAX=320;
 
     public Ferrari(String n, int v) {
         super(n, v);
@@ -15,32 +16,49 @@ public class Ferrari extends Veiculo implements Conversivel {
     @Override
     public boolean abrirCapota() {
         if (capotaAberta){
-            System.out.println("capota já estava aberta da ferrari " + nome);
+            System.out.println("Capota já está aberta da ferrari " + nome);
             return false;
         }
-        if(velAtual<20){
-            capotaAberta = true;
-            System.out.println("abrindo capota da ferrari "+ nome);
-            return true;
+        if(!capotaAberta){
+            if(velAtual<20){
+                capotaAberta = true;
+                System.out.println("Abrindo capota da ferrari "+ nome);
+                return true;
+            }
+           if(velAtual>20){
+               System.out.println("Impossível abrir a capota nesta velocidade");
+               return false;
+           }
         }
-        System.out.println("Impossível abrir a capota nesta velocidade");
-        return false;
-
+        return true;
     }
 
     @Override
     public boolean fecharCapota() {
-        if (capotaAberta){
-            System.out.println("fechando capota da ferrari "+ nome);
-            capotaAberta = false;
-            return true;
+        if (!capotaAberta){
+            System.out.println("Capota já está fechada da ferrari " + nome);
+            return false;
         }
-        System.out.println("capota da ferrari "+ nome+" já estava fechada");
-        return false;
+        if(capotaAberta){
+            if(velAtual<20){
+                System.out.println("Fechando a capota da ferrari "+ nome);
+                capotaAberta = false;
+                return true;
+            }
+            if(velAtual>20){
+                System.out.println("Impossível fechar a capota nesta velocidade");
+                return false;
+            }
+        }
+        return true;
     }
 
     @Override
     public boolean frear(int i) {
+        if(i<=0){
+            System.out.println("Impossível frear nesta intensidade");
+            return false;
+        }
         if(velAtual==0){
             System.out.println("O veículo está parado!");
             return false;
@@ -50,15 +68,33 @@ public class Ferrari extends Veiculo implements Conversivel {
             return false;
         }
         velAtual = velAtual - i;
-        System.out.println("Pampa "+ nome +" freando com intensidade " + i);
+        System.out.println("Ferrari "+ nome +" freando com intensidade " + i);
         return true;
     }
 
     @Override
     public boolean acelerar(int i) {
-        velAtual = velAtual + i;
-        System.out.println("Pampa "+ nome+" acelerando com intensidade " + i);
-        return true;
+
+        if(i<=0){
+            System.out.println("Impossível acelerar nesta intensidade");
+            return false;
+        }
+        if(i>VELMAX) {
+            velAtual = VELMAX;
+            System.out.println("Seu carro está na velocidade máxima, cuidado!");
+            return false;
+        }
+        if((velAtual+i)>VELMAX){
+            velAtual = VELMAX;
+            System.out.println("Seu carro está na velocidade máxima, cuidado!");
+            return false;
+        }
+        else{
+            velAtual = velAtual + i;
+            System.out.println("Ferrari "+ nome+" acelerando com intensidade " + i);
+            return true;
+        }
+
     }
 
     public boolean ligarFarolNeblina(){
@@ -70,4 +106,15 @@ public class Ferrari extends Veiculo implements Conversivel {
         farolNeblina = true;
         return true;
     }
+
+    public boolean desligarFarolNeblina(){
+        if (!farolNeblina){
+            System.out.println("Farol já estava desligado da ferrari " + nome);
+            return false;
+        }
+        System.out.println("Desligando farol de neblina da ferrari " + nome);
+        farolNeblina = false;
+        return true;
+    }
+
 }
