@@ -26,8 +26,11 @@ public class PampaTest {
 
         Assert.assertFalse(p.frear(10));
         p.acelerar(20);
-        Assert.assertFalse(p.frear(30));
+        Assert.assertFalse(p.frear(-10));
+        Assert.assertFalse(p.frear(0));
         Assert.assertTrue(p.frear(10));
+        Assert.assertTrue(p.frear(10));
+        Assert.assertFalse(p.frear(10));
 
     }
 
@@ -36,10 +39,12 @@ public class PampaTest {
 
         Pampa p = new Pampa("Ghia",0);
 
-        Assert.assertFalse(p.acelerar(150));
-        Assert.assertFalse(p.acelerar(10));
-        p.frear(50);
-        Assert.assertTrue(p.acelerar(10));
+        Assert.assertTrue(p.acelerar(50));
+        Assert.assertTrue(p.acelerar(60));
+        Assert.assertFalse(p.acelerar(200));
+        Assert.assertFalse(p.acelerar(120));
+        Assert.assertFalse(p.acelerar(-10));
+        Assert.assertFalse(p.acelerar(0));
     }
 
     @Test

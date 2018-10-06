@@ -1,5 +1,12 @@
 package veiculos;
 
+/**
+ * @author Marcelo Bittencourt do Nascimento Filho
+ *
+ * Classe implementa métodos de um objeto
+ * do tipo Ferrari.
+ *
+ */
 
 public class Ferrari extends Veiculo implements Conversivel {
 
@@ -7,12 +14,24 @@ public class Ferrari extends Veiculo implements Conversivel {
     private boolean farolNeblina;
     private final int VELMAX=320;
 
+    /**
+     * Construtor do objeto Ferrari, herdou métodos
+     * da classe abstrata Veículos.Tem como parâmetro
+     * nome e velocidade inicial.
+     * @param n
+     * @param v
+     */
     public Ferrari(String n, int v) {
         super(n, v);
         capotaAberta = false;
         farolNeblina = false;
     }
 
+    /**
+     * Verifica condições de possível abertura da capota.
+     *
+     * @return true se possível e false se impossível.
+     */
     @Override
     public boolean abrirCapota() {
         if (capotaAberta){
@@ -33,6 +52,11 @@ public class Ferrari extends Veiculo implements Conversivel {
         return true;
     }
 
+    /**
+     * Verifica condições de possível fechamento da capota.
+     *
+     * @return true se possível e false se impossível.
+     */
     @Override
     public boolean fecharCapota() {
         if (!capotaAberta){
@@ -53,6 +77,11 @@ public class Ferrari extends Veiculo implements Conversivel {
         return true;
     }
 
+    /**
+     * Verifica possíveis situações de frenagem do carro.
+     *
+     * @return true se possível e false se impossível.
+     */
     @Override
     public boolean frear(int i) {
         if(i<=0){
@@ -72,6 +101,11 @@ public class Ferrari extends Veiculo implements Conversivel {
         return true;
     }
 
+    /**
+     * Verifica possíveis situações de aceleração do carro.
+     *
+     * @return true se possível e false se impossível.
+     */
     @Override
     public boolean acelerar(int i) {
 
@@ -88,8 +122,7 @@ public class Ferrari extends Veiculo implements Conversivel {
             velAtual = VELMAX;
             System.out.println("Seu carro está na velocidade máxima, cuidado!");
             return false;
-        }
-        else{
+        } else{
             velAtual = velAtual + i;
             System.out.println("Ferrari "+ nome+" acelerando com intensidade " + i);
             return true;
@@ -97,6 +130,11 @@ public class Ferrari extends Veiculo implements Conversivel {
 
     }
 
+    /**
+     * Liga o farol de neblina, se possível.
+     *
+     * @return true se possível e false se impossível
+     */
     public boolean ligarFarolNeblina(){
         if (farolNeblina){
             System.out.println("Farol já estava ligado da ferrari " + nome);
@@ -107,6 +145,11 @@ public class Ferrari extends Veiculo implements Conversivel {
         return true;
     }
 
+    /**
+     * Desliga o farol de neblina, se possível.
+     *
+     * @return true se possível e false se impossível
+     */
     public boolean desligarFarolNeblina(){
         if (!farolNeblina){
             System.out.println("Farol já estava desligado da ferrari " + nome);
