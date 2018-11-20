@@ -16,6 +16,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        //Segunda Activity
+        <activity
+            android:name=".SegundaActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PRENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".TerceiraActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PRENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
     </application>
 
 </manifest>

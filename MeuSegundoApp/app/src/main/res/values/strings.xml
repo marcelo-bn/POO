@@ -3,4 +3,5 @@
     <string name="text_saudacao">Olá Mundo!</string>
     <string name="botaomsn">Mensagem</string>
     <string name="botaocont">Contar</string>
+    <string name="segundaAct">Next</string>
 </resources>
