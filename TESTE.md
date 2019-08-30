@@ -6,14 +6,7 @@
     
 Esta partição do projeto será composta pelos seguintes componentes: Arduino uno, módulo de transmissão rádio/wifi modelo NRF24L01 e sensor de temperatura e umidade relativa do ar modelo DHT11. O sensor DHT11 irá realizar a coleta de dados e por intermédio do microprocessador Arduíno Uno, o módulo de rádio/wifi irá enviá-los à estação base (módulo de recepção).
 
-A tabela 1 demonstra os valores recomendados pelo fabri-
-cante para o bom funcionamento dos dispostivos. Vale lem-
-brar que o projeto será dependente de uma rede elétrica 
-próxima as estações(remota e base) para a alimentação dos 
-componentes, para isto, é necessário uma fonte externa que 
-fará a alimentação do microcontrolador. Essa fonte deverá 
-ser capaz de fornecer entre 5 - 12V e 0,5 - 1A para o fun-
-cionamento eficaz do componente.
+A tabela 1 demonstra os valores recomendados pelo fabricante para o bom funcionamento dos dispostivos. Vale lembrar que o projeto será dependente de uma rede elétrica próxima as estações(remota e base) para a alimentação dos componentes, para isto, é necessário uma fonte externa que fará a alimentação do microcontrolador. Essa fonte deverá ser capaz de fornecer entre 5 - 12V e 0,5 - 1A para o funcionamento eficaz do componente.
 
 | Componente | Fabricante | Tensão | Corrente |
 | ------ | ------ | ----- | ----- |
