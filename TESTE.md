@@ -20,8 +20,16 @@ Tabela 1 - Especificações de componentes da estação remota.
 
 1.2 Módulo de recepção de dados 
 
-A estação de recepção dos dados coletados (estação base) terá em sua composição os seguintes componentes: Arduino Mega, módulo de recepção rádio/wifi NRF24L01 e módulo wifi ESP8266. Nesta etapa, o módulo NRF24L01 receberá informações da estação remota e através do Arduino Mega serão processadas e organizadas, com isso, o módulo wifi terá a função de acessar esses dados já armazenados e enviá-los à nuvem onde ocorrerá todo o processo de manipulação e análise do conteúdo captado.
+A estação de recepção dos dados coletados (estação base) terá em sua composição os seguintes componentes: Arduino Mega, módulo de recepção rádio/wifi NRF24L01 e módulo wifi ESP8266. Nesta etapa, o módulo NRF24L01 receberá informações da estação remota e através do Arduino Mega serão processadas e organizadas, com isso, o módulo wifi terá a função de acessar esses dados já armazenados e enviá-los à nuvem onde ocorrerá todo o processo de manipulação e análise do conteúdo captado. Nesta etapa também será necessária uma rede elétrica local para a alimentação dos componentes. O usuário deve tomar as devidas precauções como já discutidas na seção 1.1. A tabela 2 demonstra as especificações dos componentes utilizados nesta parte do projeto.
 
+| Componente | Fabricante | Tensão | Corrente |
+| ------ | ------ | ----- | ----- |
+| NRF24L01 [1] | Nordic | 1.9 - 3.6V | 11.3 mA | 
+| ESP8266 [4] | Espressif Systems | 3.3V | 10 mA |
+| Arduino Mega [5] | Atmel | 1.8 - 5.5V| máx: 500 mA|
+| Fonte externa | - | 6.4V | 750 mA |
+
+Tabela 2 - Especificações de componentes da estação remota.
 
 
 
@@ -35,7 +43,11 @@ A estação de recepção dos dados coletados (estação base) terá em sua comp
 
 [1] https://4donline.ihs.com/images/VipMasterIC/IC/NRSA/NRSAS00020/NRSAS00020-1.pdf?hkey=52A5661711E402568146F3353EA87419
 
-[2]https://img.filipeflop.com/files/download/Datasheet_DHT11.pdf
+[2] https://img.filipeflop.com/files/download/Datasheet_DHT11.pdf
 
-[3]https://pdf1.alldatasheet.com/datasheet-pdf/view/241077/ATMEL/ATMEGA328P.html
+[3] https://pdf1.alldatasheet.com/datasheet-pdf/view/241077/ATMEL/ATMEGA328P.html
+
+[4] https://cdn-shop.adafruit.com/datasheets/ESP8266_Specifications_English.pdf
+
+[5] http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf
 		
