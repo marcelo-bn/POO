@@ -4,8 +4,7 @@
 
 1.1 Módulo de coleta de dados (Transmissão)
     
-Esta partição do projeto será composta pelos seguintes 
-componentes: Arduino uno, módulo de transmissão rádio/
+Esta partição do projeto será composta pelos seguintes componentes: Arduino uno, módulo de transmissão rádio/
 wifi modelo NRF24L01 e sensor de temperatura e umidade 
 relativa do ar modelo DHT11. O sensor DHT11 irá reali-
 zar a coleta de dados e por intermédio do microproces-
