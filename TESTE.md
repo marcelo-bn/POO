@@ -17,7 +17,7 @@
 
 
 | Componente | Fabricante | Tensão | Corrente |
-| ------ | ------ | ----- | ----- | ----- | 
+| ------ | ------ | ----- | ----- | 
 | NRF24L01 [1] | Nordic | 1.9 - 3.6V | 11.3 mA | 
 | DHT11 [2] | Aosong | 3.5 - 5.5V| 0.3 mA |
 
