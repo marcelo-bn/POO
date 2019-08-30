@@ -31,18 +31,9 @@ A estação de recepção dos dados coletados (estação base) terá em sua comp
 
 Tabela 2 - Especificações de componentes da estação base.
 
-1.3 Frequências de operacão dos módulos NRF24L01 e ESP8266
+### 2. Frequências de operacão dos módulos NRF24L01 e ESP8266
 
-
-
-
-
-
-
-
-
-
-
+### 3. Referências
 [1] https://4donline.ihs.com/images/VipMasterIC/IC/NRSA/NRSAS00020/NRSAS00020-1.pdf?hkey=52A5661711E402568146F3353EA87419
 
 [2] https://img.filipeflop.com/files/download/Datasheet_DHT11.pdf
