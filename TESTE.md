@@ -2,7 +2,7 @@
 
 ### 1. Tensão e corrente de operação
 
-1.1 Módulo de coleta de dados (Transmissão)
+1.1 Módulo de coleta de dados (Estação remota)
     
 Esta partição do projeto será composta pelos seguintes componentes: Arduino uno, módulo de transmissão rádio/wifi modelo NRF24L01 e sensor de temperatura e umidade relativa do ar modelo DHT11. O sensor DHT11 irá realizar a coleta de dados e por intermédio do microprocessador Arduino Uno, o módulo de rádio/wifi fará uma comunicação com a estação base onde também haverá um NRF24L01, e desta forma enviará os dados.
 
@@ -18,7 +18,7 @@ A tabela 1 demonstra os valores recomendados pelo fabricante para o bom funciona
 Tabela 1 - Especificações de componentes da estação remota.
 
 
-1.2 Módulo de recepção de dados 
+1.2 Módulo de recepção de dados (Estação base) 
 
 A estação de recepção dos dados coletados (estação base) terá em sua composição os seguintes componentes: Arduino Mega, módulo de recepção rádio/wifi NRF24L01 e módulo wifi ESP8266. Nesta etapa, o módulo NRF24L01 receberá informações da estação remota e através do Arduino Mega serão processadas e organizadas, com isso, o módulo wifi terá a função de acessar esses dados já armazenados e enviá-los à nuvem onde ocorrerá todo o processo de manipulação e análise do conteúdo captado. Nesta etapa também será necessária uma rede elétrica local para a alimentação dos componentes. O usuário deve tomar as devidas precauções como já discutidas na seção 1.1. A tabela 2 demonstra as especificações dos componentes utilizados nesta parte do projeto.
 
@@ -29,7 +29,9 @@ A estação de recepção dos dados coletados (estação base) terá em sua comp
 | Arduino Mega [5] | Atmel | 1.8 - 5.5V| máx: 500 mA|
 | Fonte externa | - | 6.4V | 750 mA |
 
-Tabela 2 - Especificações de componentes da estação remota.
+Tabela 2 - Especificações de componentes da estação base.
+
+1.3 Frequências de operacão dos módulos NRF24L01 e ESP8266
 
 
 
