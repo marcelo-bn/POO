@@ -16,6 +16,8 @@ mento dos dispostivos.
 | NRF24L01 [1] | Nordic | 1.9 - 3.6V | 11.3 mA | 
 | DHT11 [2] | Aosong | 3.5 - 5.5V| 0.3 mA |
 | Arduino Uno [3] | Atmel | 1.8 - 5.5V| máx: 500 mA|
+Tabela 1 - Especificações componentes estação remota
+
 
 
 [1] https://4donline.ihs.com/images/VipMasterIC/IC/NRSA/NRSAS00020/NRSAS00020-1.pdf?hkey=52A5661711E402568146F3353EA87419
