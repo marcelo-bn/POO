@@ -13,7 +13,7 @@ A tabela 1 demonstra os valores recomendados pelo fabricante para o bom funciona
 | NRF24L01 [1] | Nordic | 1.9 - 3.6V | 11.3 mA | 
 | DHT11 [2] | Aosong | 3.5 - 5.5V| 0.3 mA |
 | Arduino Uno [3] | Atmel | 1.8 - 5.5V| máx: 500 mA|
-| Fonte externa | - | 6.4V | 750 mA |
+| Fonte externa | - | 6.4V | máx: 750 mA |
 
 Tabela 1 - Especificações de componentes da estação remota.
 
@@ -27,7 +27,7 @@ A estação de recepção dos dados coletados (estação base) terá em sua comp
 | NRF24L01 [1] | Nordic | 1.9 - 3.6V | 11.3 mA | 
 | ESP8266 [4] | Espressif Systems | 3.3V | 10 mA |
 | Arduino Mega [5] | Atmel | 1.8 - 5.5V| máx: 500 mA|
-| Fonte externa | - | 6.4V | 750 mA |
+| Fonte externa | - | 6.4V | máx: 750 mA |
 
 Tabela 2 - Especificações de componentes da estação base.
 
